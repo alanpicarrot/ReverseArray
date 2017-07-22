@@ -13,8 +13,10 @@ int* reverse (const int* list, int size)
 
 void printArray(const int* list, int size)
 {
+    int i;
     for(i = 0; i < size; i++)
     {
+        
         cout << list[i] << " " ;
     }
 }
